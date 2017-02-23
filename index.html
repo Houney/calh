@@ -1,0 +1,106 @@
+
+<link rel="stylesheet" type="text/css" href="theme.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" type="text/css" href="css/main.css">
+<link rel="stylesheet" type="text/html" href="SideNav/index.html">
+<script src="nicoswebsite-cc.github.io/Animation.js"></script>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+<html>
+  <head>
+    <title>CE</title>
+  </head>
+  <article>
+		<div class="header">
+  <img src="#" alt="logo" />
+			<center><h1>Calhoun Enterprises Inc.</h1></center>
+</div>
+		<center><p>
+			Welcome to Calhoun Enterprises!
+			</p></center>
+	</article>
+	
+<div id="mySidenav" class="sidenav">
+<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+<a href="index.html">Home</a>
+<a href="cont.html">Contact</a>
+<a href="prod.html">Products</a>
+<a href="rev.html">Reviews</a>
+<a href="abot.html">About Us</a>
+<a href="fin.html">Finance</a>
+</div>
+		<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+    document.getElementById("main").style.marginLeft = "250px";
+    document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+}
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("main").style.marginLeft = "0";
+    document.body.style.backgroundColor = "white";
+}
+			</script>
+	<script>			
+			
+.button {
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+		.header img {
+  float: left;
+  width: 100px;
+  height: 100px;
+  background:#555;
+}
+
+.header h1 {
+  position: relative;
+  top: 18px;
+  left: 10px;
+}
+			.city {
+    float: left;
+    margin: 5px;
+    padding: 15px;
+    max-width: 300px;
+    height: 300px;
+    border: 1px solid black;
+} 
+	   </script>
